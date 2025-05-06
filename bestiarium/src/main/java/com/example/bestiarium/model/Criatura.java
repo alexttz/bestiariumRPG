@@ -39,6 +39,43 @@ public class Criatura {
 
     //Getters e Setters
 
+    public Long getId() {
+        return id;
+    }
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getNome_criatura() {
+        return nome_criatura;
+    }
+    public void setNome_criatura(String nome_criatura) {
+        this.nome_criatura = nome_criatura;
+    }
+    public String getTipo_criatura() {
+        return tipo_criatura;
+    }
+    public void setTipo_criatura(String tipo_criatura) {
+        this.tipo_criatura = tipo_criatura;
+    }
+    public String getHabitat_criatura() {
+        return habitat_criatura;
+    }
+    public void setHabitat_criatura(String habitat_criatura) {
+        this.habitat_criatura = habitat_criatura;
+    }
+    public Integer getAmeaca() {
+        return ameaca;
+    }
+    public void setAmeaca(Integer ameaca) {
+        this.ameaca = ameaca;
+    }
+    public String getDescricao() {
+        return descricao;
+    }
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
 
 
 
